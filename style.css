@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 192px;
+}
+
+.timerButtons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.timer {
+  font-size: 126.166px;
+  color: #323238;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.controls {
+  gap: 40px;
+  display: flex;
+}
+
+.controls button {
+  background-color: white;
+  border: none;
+}
+
+.sounds {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+
+.sounds :active{
+  fill: hsla(194, 97%, 31%, 1);
+  
+}
+
+
+.sounds button {
+  border: none;
+  background-color: white;
+}
+
+.hide{
+  display: none;
+}
