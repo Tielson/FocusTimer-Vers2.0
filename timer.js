@@ -22,7 +22,7 @@ export default function Timer(
         secondsDisplay.textContent = "00"
         return
       }
-      secondsDisplay.textContent= "60"
+      secondsDisplay.textContent= "00"
       minutesDisplay.textContent =String (minutes - 5).padStart(2,0)
     }
 
